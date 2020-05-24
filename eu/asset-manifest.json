@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-coronasim/eu/static/css/main.b0f610b5.chunk.css",
+    "main.js": "/react-coronasim/eu/static/js/main.21733a8d.chunk.js",
+    "main.js.map": "/react-coronasim/eu/static/js/main.21733a8d.chunk.js.map",
+    "runtime-main.js": "/react-coronasim/eu/static/js/runtime-main.fb5e06f7.js",
+    "runtime-main.js.map": "/react-coronasim/eu/static/js/runtime-main.fb5e06f7.js.map",
+    "static/js/2.aea7d98c.chunk.js": "/react-coronasim/eu/static/js/2.aea7d98c.chunk.js",
+    "static/js/2.aea7d98c.chunk.js.map": "/react-coronasim/eu/static/js/2.aea7d98c.chunk.js.map",
+    "index.html": "/react-coronasim/eu/index.html",
+    "precache-manifest.61dbcc8d194adc80805e073802d3bf6b.js": "/react-coronasim/eu/precache-manifest.61dbcc8d194adc80805e073802d3bf6b.js",
+    "service-worker.js": "/react-coronasim/eu/service-worker.js",
+    "static/css/main.b0f610b5.chunk.css.map": "/react-coronasim/eu/static/css/main.b0f610b5.chunk.css.map",
+    "static/js/2.aea7d98c.chunk.js.LICENSE.txt": "/react-coronasim/eu/static/js/2.aea7d98c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb5e06f7.js",
+    "static/js/2.aea7d98c.chunk.js",
+    "static/css/main.b0f610b5.chunk.css",
+    "static/js/main.21733a8d.chunk.js"
+  ]
+}
