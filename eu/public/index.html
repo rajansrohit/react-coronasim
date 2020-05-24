@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="google-site-verification" content="cWnIgnYJ9UyQZYimSJVqo9SaA1NUHKj-Zstn12W4KQA" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="An experiment to analyse how a virus spread over a community" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>Simulating Coronavirus with SIR Modeling</title>
+  <meta name="description" content="A virtualized experiment to analyze the spread of a pathogen over a modeled community"/>
+</head>
+
+<body>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162516867-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-162516867-1');
+  </script>
+  <noscript>
+    <div id="root">
+      <div class="App_container__1MQN3">
+        <div class="App_header__3ZZ1n">
+          <h3>CoronaSim: Modeling Coronavirus Escalation with the Application of SIR Modeling</h3>
+          <h2>A virtualized experiment to analyze the spread of a pathogen over a modeled community</h2>
+        </div>
+        <div class="App_simulation__1Y9Gr">
+          <div class="App_samples__2e7V-"><span class="App_sampleSuspectible__3MOvD">Susceptible</span><span
+              class="App_sampleInfected__1l1Pi">Infected</span><span
+              class="App_sampleRecovered__33NzV">Recovered</span><i>Click on a building to qurantine</i>
+          </div><svg width="880" height="700" style="shape-rendering: geometricprecision;">
+            <g id="house-10-0" transform="translate(791.6746567696786, 476.91842314019124)">
+              <circle class="Graph_node__2LUmU Graph_suspectible__qkWqd" r="5" stroke="0" fill="black"></circle>
+            </g>
+          </svg>
+        </div>
+        <div class="App_section__1OL6S">
+          <div class="App_stats__2fMs7">
+            <h3>Stats</h3>
+            <div class="App_population__3MVPW">Population: 378 <br>Dead: 16 <br>Recovered: 33 <br>Sick: 210 <br></div>
+            <span class="LineChart_labelY__3CF0E">Population →</span>
+            <span class="LineChart_labelX__L30Wm">Days since the first case →</span>
+          </div>
+          <div class="App_simulationSettings__txA-R">
+            <h3>Settings</h3>
+            <div class="SimulationSettings_container__vY4rL">
+              <div class="SimulationSettings_form__E6YUW"><label>Initial sick agents<br>
+                <input type="range" min="0" max="10" value="1">
+                  <span class="SimulationSettings_value__1sPd7">1</span></label><label>Agents per building <br>
+                <input type="range" min="1" max="10" value="9">
+                    <span class="SimulationSettings_value__1sPd7">9</span></label><label>Houses <br>
+                <input type="range" min="0" max="100" value="42">
+                    <span class="SimulationSettings_value__1sPd7">42</span></label><label>Bus stations <br>
+                <input type="range" min="0" max="10" value="1">
+                    <span class="SimulationSettings_value__1sPd7">1</span></label><label>Hospitals <br>
+                <input type="range"cmin="0" max="10" value="1">
+                    <span cclass="SimulationSettings_value__1sPd7">1</span></label><label>Supermarkets <br>
+                <input type="range"cmin="0" max="10" value="3">
+                    <span class="SimulationSettings_value__1sPd7">3</span></label><label>Schools <br>
+                <input type="range" min="0" max="10" value="1">
+                  <span class="SimulationSettings_value__1sPd7">1</span></label>
+              </div>
+              <div class="SimulationSettings_footer__1GRqa"><button>Restart the simulation</button></div>
+            </div>
+          </div>
+          <h1>Docs</h1>
+          <p>These elements are modifiable by the user to further specify circumstanital conditions: </p>
+          <ul>
+            <li>
+                Initial sick agents: number of intial sick people (randomly dispersed through homes)
+            </li>
+            <br/>
+            <li>
+                Agents per building: number of people per home
+            </li>
+            <br/>
+            <li>
+                Houses: number of houses
+            </li>
+            <br/>
+            <li>
+                Bus stations: number of bus stations
+            </li>
+            <br/>
+            <li>
+                Hospitals: number of hospitals
+            </li>
+            <br/>
+            <li>
+                Supermarkets: number of supermarkets
+            </li>
+            <br/>
+            <li>
+                Schools: number of schools
+            </li>
+          </ul>
+          <h2>Regions</h2>
+          <p>
+            Each region has distinctive characteristics extracted from the region's respective Demographic Transition Model (DTM). Elements are scaled logarithimically for simulation and SIR modeling while factoring modified user input.
+          </p>
+          <ul>
+            <li>
+              <a href="/react-coronasim/na/">
+                North America (NA)
+              </a>
+            </li>
+            <li>
+              <a href="/react-coronasim/sa/">
+                South America (SA)
+              </a>
+            </li>
+            <li>
+              <a href="/react-coronasim/eu/">
+                Europe (EU)
+              </a>
+            </li>
+            <li>
+              <a href="/react-coronasim/as/">
+                Asia (AS)
+              </a>
+            </li>
+            <li>
+              <a href="/react-coronasim/af/">
+                Africa (AF)
+              </a>
+            </li>
+            <li>
+              <a href="/react-coronasim/oc/">
+                Oceania (OC)
+              </a>
+            </li>
+          </ul>
+          <br/>
+        </div>
+      </div>
+    </div>
+  </noscript>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+</html>
