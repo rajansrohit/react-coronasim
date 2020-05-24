@@ -11,13 +11,13 @@ import { nextSimulationTick, getInitialGraph } from "./simulation";
 
 const INITIAL_SIMULATION_STATE = {
   tick: 0,
-  agentsPerHouse: 8,
-  houses: 26,
-  busStations: 5,
-  hospitals: 3,
-  supermarkets: 5,
-  schools: 3,
-  initialSickAgents: 5,
+  initialSickAgents: 8,
+  agentsPerHouse: 6,
+  houses: 36,
+  hospitals: 8,
+  schools: 8,
+  busStations: 8,
+  supermarkets: 7,
 };
 
 const INITIAL_GRAPH = getInitialGraph(INITIAL_SIMULATION_STATE);
@@ -127,7 +127,7 @@ function App() {
       </div>
       <div className={styles.section}>
         <div className={styles.stats}>
-          <h3>Stats</h3>
+          <h3>Stats (Europe)</h3>
           <div className={styles.population}>
             Population: {nodes.filter(({ type }) => type === "agent").length}{" "}
             <br />

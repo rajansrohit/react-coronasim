@@ -11,13 +11,13 @@ import { nextSimulationTick, getInitialGraph } from "./simulation";
 
 const INITIAL_SIMULATION_STATE = {
   tick: 0,
-  agentsPerHouse: 8,
-  houses: 26,
+  agentsPerHouse: 10,
+  houses: 50,
   busStations: 5,
   hospitals: 3,
   supermarkets: 5,
   schools: 3,
-  initialSickAgents: 5,
+  initialSickAgents: 10,
 };
 
 const INITIAL_GRAPH = getInitialGraph(INITIAL_SIMULATION_STATE);
