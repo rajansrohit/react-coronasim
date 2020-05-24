@@ -10,7 +10,7 @@ Ensure Node.js and React are installed on the system (can use NPM or Yarn)
   git clone https://github.com/rajansrohit/react-coronasim.git
 ```
 
-##NPM
+## NPM
 1. Build
 ```
   npm run build
@@ -21,7 +21,7 @@ Ensure Node.js and React are installed on the system (can use NPM or Yarn)
   npm start
 ```
 
-##Yarn
+## Yarn
 1. Build/Run
 ```
   yarn start
